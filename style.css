@@ -1,0 +1,39 @@
+* {
+    background-color: lightblue;
+    line-height: 1.3;
+    margin: 15px;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+}
+
+ul li {
+    list-style: circle;
+    font-size: 25px;
+}
+
+/* Pizza recipe site */
+
+.pizza-container img {
+    width: 500px;
+}
+
+.pizza-container h2 {
+    color: darkorange;
+    font-size: 50px;
+}
+
+.pizza-container p {
+    font-weight: bold ;
+}
+
+.pizza-container h3 {
+    font-size: 30px;
+}
+
+.pizza-container {
+    border: 5px solid orange;
+    padding: 10px;
+}
+
