@@ -13,6 +13,11 @@ ul li {
     font-size: 25px;
 }
 
+.burger-recipe h1,
+.icecream-recipe h1 {
+    text-align: center;
+}
+
 /* Pizza recipe site */
 
 .pizza-container img {
@@ -37,3 +42,42 @@ ul li {
     padding: 10px;
 }
 
+/* Burger recipe site */
+
+
+
+.burger-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.burger-recipe {
+    border: 10px solid red;
+}
+
+.ingredients h3,
+.steps h3,
+.burger-recipe h2 {
+    font-size: 25px;
+}
+
+/* Ice Cream recipe site */
+
+.icecream-recipe h1 {
+    color: red;
+}
+
+.icecream-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.icecream-recipe {
+    border: 10px solid pink;
+}
+
+.icecream-recipe h2 {
+    color: red;
+}
