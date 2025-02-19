@@ -1,6 +1,6 @@
 * {
     /* background-color: lightblue; */
-    line-height: 1.5;
+    line-height: 1.2;
     margin: 50px;
     box-sizing: border-box;
 }
@@ -43,27 +43,39 @@ ul li {
     text-align: center;
 }
 
+.burger-recipe a,
+.pizza-recipe a,
+.icecream-recipe a {
+    font-size: 20px;
+    display: inline-block;
+    margin-bottom: 100px;
+    padding: 8px;
+    background-color: bisque;
+    border: 2px solid black;    
+}
+
 /* Pizza recipe site */
 
-.pizza-container img {
+.pizza-recipe img {
+    display: block;
     width: 500px;
     margin: auto;
 }
 
-.pizza-container h2 {
+.pizza-recipe h1 {
     color: darkorange;
-    font-size: 50px;
+    font-size: 40px;
 }
 
-.pizza-container p {
+.pizza-recipe p {
     font-weight: bold ;
 }
 
-.pizza-container h3 {
+.pizza-recipe h3 {
     font-size: 30px;
 }
 
-.pizza-container {
+.pizza-recipe {
     border: 5px solid orange;
     padding: 10px;
 }
@@ -72,8 +84,8 @@ ul li {
 
 .burger-image {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+    border: 2px solid black;
 }
 
 .burger-recipe {
@@ -84,6 +96,9 @@ ul li {
 .steps h3,
 .burger-recipe h2 {
     font-size: 25px;
+    border: 4px solid red;
+    background-color: pink;
+    padding: 8px;
 }
 
 /* Ice Cream recipe site */
